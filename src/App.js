@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+// 
 import UserInput from './components/UserInput'
 import ConnectedUsers from './components/Users'
 
@@ -14,8 +14,10 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
-  return { users: state.users }
-}
+// const mapStateToProps = (state) => {
+//   return { users: state.users }
+// }
 
-export default connect(mapStateToProps)(App);
+// export default connect(mapStateToProps)(App);
+
+export default App
